@@ -1,0 +1,22 @@
+body {
+    background-image: url("mapa.jpg");
+}
+
+#f {
+    background-color: white;
+    text-align: center;
+    width: 1900px;
+    height: 700px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+#uf {
+    width: 1290px;
+    height: 100px;
+}
+
+#cidade {
+    width: 1290px;
+    height: 100px;
+}
