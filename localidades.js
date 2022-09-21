@@ -16,12 +16,19 @@ $(document).ready(function() {
         }
     })
 });
-
+$('#cidade').hide()
 // Mudando a opção uf
 $('#uf').change(function(e) {
     e.preventDefault();
     $("#cidade").empty();
     var uf = $('#uf').val();
+
+    
+     $('#cidade').show()
+    $('#uf').change(function(e) {
+        e.preventDefault()
+       
+    })
 
 
 
